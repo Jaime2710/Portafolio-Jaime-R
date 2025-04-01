@@ -1,1 +1,6 @@
-// Add JS here
+function main() {
+    console.log("Hello, World!");
+  }
+  
+  main();
+  
