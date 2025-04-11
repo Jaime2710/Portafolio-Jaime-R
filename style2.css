@@ -1,0 +1,51 @@
+body {
+    font-family:"Unica One"; 
+    margin: 60px;
+    
+}
+
+.N1 {    
+    align-content: center;
+    text-align: center;
+}
+.N2{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.N3 {
+    margin-top: 2rem;
+}
+.N4 {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.Academia {
+    text-decoration: none;
+    color:black
+}
+.Lámpara {
+    text-decoration: none;
+    color:black
+}
+.Anbox {
+    text-decoration: none;
+    color:black
+}
+.Señal {
+    text-decoration: none;
+    color:black
+}
+
+.Sudadera {
+    text-decoration: none;
+    color:black
+}
+.container {
+    display: contents;
+    flex-direction: row;
+}
+.Boton {
+    display: flex;
+    justify-content: center;
+}
+
