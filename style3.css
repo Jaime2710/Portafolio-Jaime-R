@@ -1,0 +1,47 @@
+body {
+    font-family: Unica One;
+    margin: 50px;
+}
+.DA {
+    font-size: 30;
+    text-align: justify;
+    margin-right: 5rem;
+}
+.Academia{
+    font-size: 100;
+    
+}
+.Dl {
+    font-size: 30;
+    text-align: justify;
+    margin-right: 5rem;
+}
+.Ds {
+    font-size: 30;
+    text-align: justify;
+    margin-right: 5rem;
+}
+.Lámpara {
+    font-size: 100;
+}
+.Anbox {
+    font-size: 100;
+}
+.Sudadera {
+    font-size: 100;
+}
+.Btn {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+}
+.Sluminosa {
+    font-size: 100;
+    text-align: center;
+}
+.Dsl {
+    text-align: justify;
+    font-size: 30;
+}
+
