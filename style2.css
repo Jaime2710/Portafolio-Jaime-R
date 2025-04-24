@@ -1,51 +1,104 @@
 body {
     font-family:"Unica One"; 
     margin: 60px;
-    
+    background-color: #EAEAEA;
 }
 
 .N1 {    
     align-content: center;
     text-align: center;
 }
-.N2{
-    margin-top: 2rem;
-    font-size: 20px;
-}
-.N3 {
-    margin-top: 2rem;
-}
-.N4 {
-    margin-top: 1rem;
-    font-size: 20px;
-}
+
 .Academia {
-    text-decoration: none;
-    color:black
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-color:#F08200; 
+    text-decoration:none;
+    border-radius: 10px;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    border:none;
 }
-.Lámpara {
-    text-decoration: none;
-    color:black
-}
-.Anbox {
-    text-decoration: none;
-    color:black
-}
-.Señal {
-    text-decoration: none;
-    color:black
+    
+.Academia:hover {
+    color: white;
+    background-color: black;
 }
 
-.Sudadera {
-    text-decoration: none;
-    color:black
+.Lámpara {
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-color:#F08200; 
+    text-decoration:none;
+    border-radius: 10px;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    border:none;   
 }
-.container {
-    display: contents;
-    flex-direction: row;
+
+.Lámpara:hover {
+    color:white;
+    background-color: black;
+}
+
+.Anbox {
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-color:#F08200; 
+    text-decoration:none;
+    border-radius: 10px;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    border:none;   
+}
+
+.Anbox:hover {
+    color:white;
+    background-color: black;
+}
+
+.Señal {
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-color:#F08200; 
+    text-decoration:none;
+    border-radius: 10px;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    border:none;   
+}
+
+.Señal:hover {
+    color:white;
+    background-color: black;
+}
+.N3 {
+    align-content: center;
+    text-align: center;
+}
+.Sudadera {
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-color:#F08200; 
+    text-decoration:none;
+    border-radius: 10px;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    border:none;   
+}
+
+.Sudadera:hover {
+    color:white;
+    background-color: black;
 }
 .Boton {
     display: flex;
+    align-items: flex-end;
     justify-content: center;
 }
 

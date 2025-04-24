@@ -2,16 +2,30 @@ body {
         font-family:"Unica One"; 
         margin:50px;
         
+  background-color: #EAEAEA;
 }
 .Barra {
   display: flex;
   justify-content: space-between;
 }
-
-.Nav{
+.Nav {
   color: black;
   text-decoration:none;
   font-size: 20px;
+  position: relative;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.Nav::after {
+  content: "";
+  width: 100%;
+  height: .2em;
+  /* background-color: var(--c-title-underline-color); */
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 
 .Titulo {
@@ -19,9 +33,37 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align:center;
-  font-size: 100px;
   padding:50px;
   padding-bottom:5px;
+}
+
+.Diseño {
+  font-size: 100px;
+}
+.Portafolio{
+  font-size:100px;
+}
+
+@media only screen and (max-width: 600px) {
+.Portafolio{
+  font-size:50px ;
+}
+.Diseño {
+  font-size:50px;
+}
+.Habilidades {
+  font-size:65px ;
+}
+.Software {
+  font-size: 65px;
+}
+.AbT {
+  font-size: 65px;
+}
+.Datos {
+  font-size:10px;
+}
+
 }
 
 .Center {
@@ -38,26 +80,41 @@ body {
 }
 
 .Datos {
-  display: flex;
-  justify-content: space-between;
+  display:flex;
+  justify-content:center;
   margin-top: 20px;
+  font-size: 15px;
 }
 
 .about {
   display: flex;
-  flex-direction: row;
 }
-
 .AbT {
-  font-family: Unica One;
-  font-size:100 px;
-  justify-content: flex-start;
-}
+   position: relative;
+   text-transform: uppercase;
+   font-size: 100px;
+   width: fit-content;
+ }
+
+.AbT::after {
+   content: "";
+   width: 100%;
+   height: .1em;
+   /* background-color: var(--c-title-underline-color); */
+   background: #F08200;
+   position: absolute;
+   bottom: -1px;
+   left: 0;
+ }
+ .about {
+  display: flex;
+  columns: 2;
+ }
 
 .Desc {
   font-size: 15px;
   font-family: Monstserrat;
-  flex-direction: column;
+  
 }
 
 .Nombre{
@@ -70,14 +127,20 @@ body {
 .Datos {
   display: flex;
   justify-content: space-between;
+  align-content: center;
   padding-top:10px;
   padding-bottom: 150px;
+
+  .h1 {
+    font-size: 15px;
+  }
 }
 
 .About{
   font-size: 100px;
   margin-bottom: 0%;
 }
+
 
 .Desc {
   display: flex;
@@ -90,12 +153,46 @@ body {
 
 .Hab {
   font-family: Montserrat;
-  font-size: 25px;
+  font-size: 20px;
+}
+.Habilidades {
+  position: relative;
+  
+  text-transform: uppercase;
+  width: fit-content;
 }
 
+.Habilidades::after {
+  content: "";
+  width: 100%;
+  height: .2em;
+  /* background-color: var(--c-title-underline-color); */
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+.Software {
+  position: relative;
+  
+  text-transform: uppercase;
+  width: fit-content;
+}
 
+.Software::after {
+  content: "";
+  width: 100%;
+  height: .2em;
+  /* background-color: var(--c-title-underline-color); */
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
 .Boton {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-top: 5rem;
 }
+

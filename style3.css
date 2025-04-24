@@ -1,47 +1,78 @@
 body {
     font-family: Unica One;
     margin: 50px;
+    background-color: #EAEAEA;
 }
+
+@media only screen and (max-widht:600px) {
+    
+.Anbox {
+    font: size 50px;
+}
+.Lámpara {
+    font-size:50px;
+}
+.Sudadera {
+    font-size:50px ;
+}
+.Sluminosa {
+    font-size: 50px;
+}
+.Academia {
+    font-size: 50px;
+}
+}
+.Anbox{
+    font-size: 100px;
+}
+
+.Título {
+    font-size: 100px;
+}
+
 .DA {
-    font-size: 30;
+    font-family: Montserrat;
+    font-size: 30px;
     text-align: justify;
     margin-right: 5rem;
 }
-.Academia{
-    font-size: 100;
-    
-}
+
 .Dl {
-    font-size: 30;
+    font-family: Montserrat;
+    font-size: 30px;
     text-align: justify;
     margin-right: 5rem;
 }
 .Ds {
-    font-size: 30;
+    font-family: Montserrat;
+    font-size: 30px;
     text-align: justify;
     margin-right: 5rem;
 }
 .Lámpara {
-    font-size: 100;
+    font-size: 100px;
 }
-.Anbox {
-    font-size: 100;
-}
+
 .Sudadera {
-    font-size: 100;
+    font-size: 100px;
 }
 .Btn {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
-
+    text-decoration: none;
+}
+.proyectos{
+    color:#F08200 ;
+    text-decoration: none;
 }
 .Sluminosa {
-    font-size: 100;
-    text-align: center;
+    font-size: 100px;
+    
 }
 .Dsl {
+    font-family: Montserrat;
     text-align: justify;
-    font-size: 30;
+    font-size: 30px;
 }
 
