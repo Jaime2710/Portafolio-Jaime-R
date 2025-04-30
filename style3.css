@@ -4,27 +4,19 @@ body {
     background-color: #EAEAEA;
 }
 
-
-@media only screen and (max-widht:600px) {
-    
-.Anbox, .Lámpara, .suadera, .Sluminosa, .Academia{
-font-size:10px;
-}
-
-}
-.Anbox{
+.Anbp{
     font-size: 85px;
 }
-.sudadera {
+.Sudp{
     font-size: 85px;
 }
-.Academia {
+.Acadp{
     font-size: 85px;
 }
-.Lámpara {
+.Lámpp{
     font-size: 85px;
 }
-.Sluminosa {
+.Señp{
     font-size: 85px;
 }
 .DA {
@@ -60,3 +52,20 @@ font-size:10px;
     font-size: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+.Anbp{
+    font-size: 60px;
+}
+.Sudp{
+    font-size: 60px;
+}
+.Señp{
+    font-size: 60px;
+}
+.Lámpp{
+    font-size: 60px;
+}
+.Acadp {
+    font-size: 55px;
+}
+}

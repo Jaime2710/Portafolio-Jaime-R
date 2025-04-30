@@ -9,7 +9,7 @@ body {
     text-align: center;
 }
 
-.Academia {
+.Acad {
     font-size: 35px;
     text-align: center;
     color:white;
@@ -21,12 +21,12 @@ body {
     border:none;
 }
     
-.Academia:hover {
+.Acad:hover {
     color: white;
     background-color: black;
 }
 
-.Lámpara {
+.Lámp {
     font-size: 35px;
     text-align: center;
     color:white;
@@ -38,12 +38,12 @@ body {
     border:none;   
 }
 
-.Lámpara:hover {
+.Lámp:hover {
     color:white;
     background-color: black;
 }
 
-.Anbox {
+.Anb {
     font-size: 35px;
     text-align: center;
     color:white;
@@ -55,12 +55,12 @@ body {
     border:none;   
 }
 
-.Anbox:hover {
+.Anb:hover {
     color:white;
     background-color: black;
 }
 
-.Señal {
+.Señ {
     font-size: 35px;
     text-align: center;
     color:white;
@@ -72,7 +72,7 @@ body {
     border:none;   
 }
 
-.Señal:hover {
+.Señ:hover {
     color:white;
     background-color: black;
 }
@@ -80,7 +80,7 @@ body {
     align-content: center;
     text-align: center;
 }
-.Sudadera {
+.Sud {
     font-size: 35px;
     text-align: center;
     color:white;
@@ -92,7 +92,7 @@ body {
     border:none;   
 }
 
-.Sudadera:hover {
+.Sud:hover {
     color:white;
     background-color: black;
 }
@@ -101,4 +101,11 @@ body {
     align-items: flex-end;
     justify-content: center;
 }
-
+@media only screen and (max-width: 600px) {
+.Boton{
+    width: 50%;
+}
+.Señ, .Acad, .Anb, .Lámp, .Sud{
+    font-size: 10px;
+}
+}
