@@ -1,7 +1,7 @@
 body {
     font-family:"Unica One"; 
-    margin: 60px;
-    background-color: #EAEAEA;
+    margin: 40px;
+    background-color: #121212;
 }
 
 .N1 {    
@@ -19,6 +19,8 @@ body {
     cursor:auto;
     transition: background-color 0.3s ease;
     border:none;
+    position: relative;
+    z-index: 1;
 }
     
 .Acad:hover {
@@ -96,16 +98,195 @@ body {
     color:white;
     background-color: black;
 }
-.Boton {
-    display: flex;
-    align-items: flex-end;
+.Botón {
+    display: flex; 
+    align-items: center; 
     justify-content: center;
 }
+
+.Proy {
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-color:#F08200; 
+    text-decoration:none;
+    border-radius: 10px;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    border:none;   
+}
+
+.Proy:hover {
+    color:white;
+    background-color: black;
+}
+.A1{
+    position: relative;
+    padding: 25px;
+    height: 100%;
+    background-color: none;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.A1::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px; /* grosor del borde */
+    background: linear-gradient(90deg, #F08200, #EAEAEA, #F08200, #EAEAEA);
+    background-size: 300%;
+    animation: moverBorde 2s linear infinite;
+    z-index: -1;
+    border-radius: 12px;
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+mask-composite: exclude;
+
+mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+mask-composite: exclude;
+pointer-events: none;   
+}
+
+.Lamp1{
+    position: relative;
+    padding: 25px;
+    height: 100%;
+    background-color: none;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Lamp1::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px; /* grosor del borde */
+    background: linear-gradient(90deg, #F08200, #EAEAEA, #F08200, #EAEAEA);
+    background-size: 300%;
+    animation: moverBorde 2s linear infinite;
+    z-index: -1;
+    border-radius: 12px;
+    
+}
+
+.An1{
+    position: relative;
+    padding: 25px;
+    height: 100%;
+    background-color: none;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.An1::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px; /* grosor del borde */
+    background: linear-gradient(90deg, #F08200, #121212,#F08200,#121212 );
+    background-size: 300%;
+    animation: moverBorde 4s linear infinite;
+    z-index: -1;
+    border-radius: 12px;
+    
+}
+
+.Se1{
+    position: relative;
+    padding: 25px;
+    height: 100%;
+    
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Se1::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px; /* grosor del borde */
+    background: linear-gradient(90deg, #F08200, #EAEAEA, #F08200, #EAEAEA);
+    background-size: 300%;
+    animation: moverBorde 2s linear infinite;
+    z-index: -1;
+    border-radius: 12px;
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+mask-composite: exclude;
+
+mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+mask-composite: exclude;
+pointer-events: none;
+   
+}
+
+.S1{
+    position: relative;
+    padding: 25px;
+    height: 100%;
+    background-color: none;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.S1::before{
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px; /* grosor del borde */
+    background: linear-gradient(90deg, #F08200, #EAEAEA, #F08200, #EAEAEA);
+    background-size: 300%;
+    animation: moverBorde 2s linear infinite;
+    z-index: -1;
+    border-radius: 12px;
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+mask-composite: exclude;
+
+mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+mask-composite: exclude;
+pointer-events: none;
+   
+}
+
+@keyframes moverBorde {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+
 @media only screen and (max-width: 600px) {
 .Boton{
     width: 50%;
 }
-.Señ, .Acad, .Anb, .Lámp, .Sud{
+.Señ, .Acad, .Anb, .Lámp, .Sud, .Proy{
     font-size: 10px;
 }
 }

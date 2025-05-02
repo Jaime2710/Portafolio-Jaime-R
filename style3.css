@@ -1,6 +1,6 @@
 body {
     font-family: Unica One;
-    margin: 50px;
+    margin: 20px;
     background-color: #EAEAEA;
 }
 
@@ -41,9 +41,21 @@ body {
     justify-content: center;
     text-decoration: none;
 }
-.proyectos{
-    color:#F08200 ;
-    text-decoration: none;
+.Proy {
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-color:#F08200; 
+    text-decoration:none;
+    border-radius: 10px;
+    cursor:auto;
+    transition: background-color 0.3s ease;
+    border:none;   
+}
+
+.Proy:hover {
+    color:white;
+    background-color: black;
 }
 
 .Dsl {
@@ -68,4 +80,5 @@ body {
 .Acadp {
     font-size: 55px;
 }
+
 }
