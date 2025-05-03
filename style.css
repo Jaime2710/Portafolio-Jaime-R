@@ -130,7 +130,7 @@ body {
   position: absolute;
   bottom: -1px;
   left: 0;
-  height: 0.1em;
+  height: 0.2em;
   width: 100%;
   background: linear-gradient(90deg, black, #F08200, black,#F08200);
   background-size: 300%;
@@ -181,11 +181,7 @@ body {
     order: 2;
   }
 }
-.container-3{
-  
-  justify-content: center;
-  
-}
+
 @keyframes moverBorde {
   0% {
     background-position: 0% 50%;

@@ -6,18 +6,78 @@ body {
 
 .Anbp{
     font-size: 85px;
+    position: relative;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.Anbp::after{
+    content: "";
+  width: 100%;
+  height: .2em;
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 .Sudp{
     font-size: 85px;
+    position: relative;
+    text-transform: uppercase;
+    width: fit-content;
 }
-.Acadp{
+.Sudp::after{
+    content: "";
+  width: 100%;
+  height: .2em;
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+.Acap {
     font-size: 85px;
+    position: relative;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.Acap::after{
+    content: "";
+  width: 100%;
+  height: .2em;
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 .Lámpp{
     font-size: 85px;
+    position: relative;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.Lámpp::after{
+    content: "";
+  width: 100%;
+  height: .2em;
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 .Señp{
     font-size: 85px;
+    position: relative;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.Señp::after{
+    content: "";
+  width: 100%;
+  height: .2em;
+  background: #F08200;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 .DA {
     font-family: Montserrat;
@@ -77,8 +137,32 @@ body {
 .Lámpp{
     font-size: 60px;
 }
-.Acadp {
+.Acap {
     font-size: 55px;
 }
 
+}
+@keyframes moverBorde {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+.Sudp::after,
+.Anbp::after,
+.Acap::after,
+.Señp::after,
+.Lámpp::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 0.1em;
+  width: 100%;
+  background: linear-gradient(90deg, black, #F08200, black,#F08200);
+  background-size: 300%;
+  animation: moverBorde 3s linear infinite;
 }
