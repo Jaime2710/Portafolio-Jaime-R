@@ -177,7 +177,17 @@ pointer-events: none;
     animation: moverBorde 2s linear infinite;
     z-index: -1;
     border-radius: 12px;
-    
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+mask-composite: exclude;
+
+mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+mask-composite: exclude;
+pointer-events: none;
 }
 
 .An1{
@@ -197,12 +207,22 @@ pointer-events: none;
     right: 0;
     bottom: 0;
     padding: 5px; /* grosor del borde */
-    background: linear-gradient(90deg, #F08200, #121212,#F08200,#121212 );
+    background: linear-gradient(90deg, #F08200, #EAEAEA,#F08200,#EAEAEA );
     background-size: 300%;
     animation: moverBorde 4s linear infinite;
     z-index: -1;
     border-radius: 12px;
-    
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+mask-composite: exclude;
+
+mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+mask-composite: exclude;
+pointer-events: none;
 }
 
 .Se1{
@@ -287,6 +307,6 @@ pointer-events: none;
     width: 50%;
 }
 .Señ, .Acad, .Anb, .Lámp, .Sud, .Proy{
-    font-size: 10px;
+    font-size: 25px;
 }
 }
