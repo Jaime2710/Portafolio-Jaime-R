@@ -171,7 +171,7 @@ body {
   .Aboutt {
     order: 1;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
   }
   .Desc {
     order: 3;

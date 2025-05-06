@@ -25,7 +25,7 @@ body {
     
 .Acad:hover {
     color: white;
-    background-color: black;
+    background-color: #121212;
 }
 
 .Lámp {
@@ -42,7 +42,7 @@ body {
 
 .Lámp:hover {
     color:white;
-    background-color: black;
+    background-color: #121212;
 }
 
 .Anb {
@@ -96,7 +96,7 @@ body {
 
 .Sud:hover {
     color:white;
-    background-color: black;
+    background-color: #121212;
 }
 .Botón {
     display: flex; 
@@ -309,4 +309,15 @@ pointer-events: none;
 .Señ, .Acad, .Anb, .Lámp, .Sud, .Proy{
     font-size: 25px;
 }
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: #121212; /* Ya coincide con tu fondo */
+    pointer-events: none;
 }

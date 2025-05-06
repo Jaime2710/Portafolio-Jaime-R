@@ -1,6 +1,6 @@
 body {
     font-family: Unica One;
-    margin: 20px;
+    margin: 10px;
     background-color: #EAEAEA;
 }
 
@@ -166,3 +166,4 @@ body {
   background-size: 300%;
   animation: moverBorde 3s linear infinite;
 }
+
