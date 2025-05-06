@@ -141,6 +141,27 @@ body {
     font-size: 55px;
 }
 
+.Da{
+    text-align: left;
+    font-size: 20px;
+}
+.Dl{
+    text-align: left;
+    font-size: 20px;
+}
+.DA{
+    text-align: left;
+    font-size: 20px;
+}
+
+.Dsl{
+    text-align: left;
+    font-size: 20px;
+}
+.Ds{
+    text-align: left;
+    font-size: 20px;
+}
 }
 @keyframes moverBorde {
     0% {
